@@ -6,8 +6,11 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Link href={'/about'}>About</Link>
-      <h1>Hello world</h1>
+      <Head>
+        <title>Mohammed Aabid</title>
+      </Head>
+
+      <h1 className={styles.title}>Hello world</h1>
     </div>
   )
 }
